@@ -16,6 +16,12 @@ The names and colours of zones are given in Figure 2.
 <em align="center">Figure 2. Clustering zones and their names. It should be noted that for most of the natural targets ![](https://latex.codecogs.com/gif.latex?\Theta_{\text{xP}}) varies from ![](https://latex.codecogs.com/gif.latex?0^{\circ}) to ![](https://latex.codecogs.com/gif.latex?45^{\circ}). Hence, the clustering zones are shown within this range.</em>
 </p>
 
+Here is an example of changes of clustering zones with time over an agricultural test site
+
+<p align="center">
+<img src="time_series.gif" width="300" height="300" alt = "Time series">
+</p>
+
 # Up and Run
 
 Requirements:
