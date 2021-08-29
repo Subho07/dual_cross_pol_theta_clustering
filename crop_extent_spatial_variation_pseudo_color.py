@@ -2,7 +2,9 @@
 """
 Created on Sat Aug 21 22:13:11 2021
 
-@author: Subhadip_CSRE
+@author: Subhadip Dey
+@Institute: Indian Institute of Technology Bombay, India
+@Email: sdey2307@gmail.com
 """
 
 import numpy as np
