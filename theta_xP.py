@@ -44,7 +44,8 @@ root = Tk()
 root.withdraw()
 folder_selected = filedialog.askdirectory()
 
-ws = 7
+ws = 7 # CHANGE PROCESSING WINDOW SIZE HERE
+
 kernel = np.ones((ws,ws),np.float32)/(ws*ws)
    
 C11 = read_bin(folder_selected + '/C11.bin')
@@ -69,33 +70,10 @@ g = C22
 span = C11 + C22
 
 val = (m1*span*h)/(C11*g+m1**2*span**2)
-thet = np.real(np.arctan(val))
-theta_DP = np.rad2deg(thet)
+thet = np.arctan(np.real(val))
+theta_xP = np.real(np.rad2deg(thet))
 
 #%%
 infile = folder_selected + '/C11.bin'
 ofilegrvi = folder_selected + '/theta_xP.bin'
-write_bin(ofilegrvi,theta_DP,infile)            
-#%%
-# import matplotlib.pyplot as plt
-
-# alpha = read_bin('E:/CVPR-2021/RS-2/C2_pp2/alpha.bin')
-# alpha1 = 45 - alpha
-# #%%
-# hfont = {'fontname':'Cambria','size':12,'color':'black'}
-
-# fig = plt.figure(figsize=(8,6))
-# plt.imshow(theta_image)
-# colorbar = plt.colorbar()
-# colorbar.set_ticks(np.linspace(-45, 45, 7))
-# plt.clim(-45,45)
-# plt.set_cmap('twilight')
-
-# for l in colorbar.ax.yaxis.get_ticklabels():
-#     l.set_family("Cambria")
-#     l.set_fontsize(20)
-#     l.set_color('black')
-
-# plt.axis('off')
-# #%%
-# fig.savefig(r'E:\CVPR-2021\CVPR_2021\images\txp_pp2_rs2.png',dpi=300,bbox_inches = 'tight',pad_inches = 0)
+write_bin(ofilegrvi,theta_xP,infile) 
