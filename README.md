@@ -25,6 +25,9 @@ Requirements:
 3. Dual pol SAR data (HH--HV or, VV--VH) in C2 format
 
 a. Run the `theta_xP.py` file to generate ![](https://latex.codecogs.com/gif.latex?\Theta_{\text{xP}}) image.
-b. Use `PolSARpro` software to compute the entropy image
-c. Rename the entropy image to `H_xP.bin'
+
+b. Use `PolSARpro` software to compute the entropy image.
+
+c. Rename the entropy image to `H_xP.bin`.
+
 d. 
