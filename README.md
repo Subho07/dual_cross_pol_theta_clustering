@@ -7,3 +7,6 @@ This repository helps to make cluster using the target characterozation paramete
   
 <em align="center">Figure 1. Clustering plane using ![](https://latex.codecogs.com/gif.latex?\Theta_{\text{xP}}) and ![](https://latex.codecogs.com/gif.latex?H_{\text{xP}}). Shaded region in black colour is non feasible. The two bounding curves are denoted as "curve I" and "curve II".</em>
 </p>
+
+The name and colour of zones are given in Figure 2.
+
