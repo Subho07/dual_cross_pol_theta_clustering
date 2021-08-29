@@ -30,4 +30,4 @@ b. Use `PolSARpro` software to compute the entropy image.
 
 c. Rename the entropy image to `H_xP.bin`.
 
-d. 
+d. Run `Spatial_clustering_xP.py` to generate the clustered image in png format.
