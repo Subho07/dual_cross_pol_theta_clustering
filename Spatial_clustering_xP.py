@@ -15,7 +15,7 @@ product = 'GIVE_PRODUCT_DIRECTORY_HERE'
 #date = '24-Aug'
 
 theta_xP = product + '/C2/theta_xp.bin'
-H_xP = product + '/C2/H_dp.bin'
+H_xP = product + '/C2/H_xp.bin'
 
 src_ds1=gdal.Open(theta_xP) 
 gt=src_ds1.GetGeoTransform()
