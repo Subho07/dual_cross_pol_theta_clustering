@@ -34,6 +34,6 @@ a. Run the `theta_xP.py` file to generate ![](https://latex.codecogs.com/gif.lat
 
 b. Use `PolSARpro` software to compute the entropy image.
 
-c. Rename the entropy image to `H_xP.bin`.
+c. Rename the entropy image to `H_xP.bin` and `H_xP.hdr`.
 
 d. Run `Spatial_clustering_xP.py` to generate the clustered image in png format.
